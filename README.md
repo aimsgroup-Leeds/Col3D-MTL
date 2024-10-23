@@ -6,7 +6,7 @@ Col3D-MTL is a CNN-based model that jointly estimates monocular depth and surfac
 
 # Datasets
 
-Download the [C3VD](https://durrlab.github.io/C3VD/), [CVC-ColonDB](https://polyp.grand-challenge.org/Databases/), and [PolypGen](https://www.synapse.org/Synapse:syn26376615/wiki/613312) and save it into the ./data folder.
+Create a ./data folder and download the [C3VD](https://durrlab.github.io/C3VD/), [CVC-ColonDB](https://polyp.grand-challenge.org/Databases/), and [PolypGen](https://www.synapse.org/Synapse:syn26376615/wiki/613312) datasets into it.
 
 # Evaluation
 
