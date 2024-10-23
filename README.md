@@ -23,3 +23,6 @@ python eval.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpo
 python test.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpoint --data_path ./data/ \
          --filenames_file ./data_splits/test.txt --multitask True --CL True
 `
+# Citation
+
+If our code is useful for your research, please cite our paper
