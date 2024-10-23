@@ -11,10 +11,8 @@ Download the [C3VD](https://durrlab.github.io/C3VD/), [CVC-ColonDB](https://poly
 # Evaluation
 
 `
-python eval.py --model_name Col3D-MTL --checkpoint_path $checkpoint --data_path_eval ./data --gt_path_eval ./data 
-         --filenames_file_eval ./data_splits/test.txt \
-         --multitask True \
-         --CL True
+python eval.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/model_best_d1 --data_path_eval ./data --gt_path_eval ./data 
+         --filenames_file_eval ./data_splits/test.txt --multitask True --CL True
 `
 
 
