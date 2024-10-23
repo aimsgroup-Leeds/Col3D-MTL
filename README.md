@@ -25,4 +25,4 @@ python test.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpo
 `
 # Citation
 
-If our code is useful for your research, please cite our paper
+If you find our work useful for your research, please cite our paper
