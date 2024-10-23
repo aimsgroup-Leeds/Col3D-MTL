@@ -25,4 +25,14 @@ python test.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpo
 `
 # Citation
 
-If you find our work useful for your research, please cite our paper
+If you find our work useful for your research, please cite:
+
+         @article{MEDIMA_103379,
+         author = {Pedro Esteban, Chavarrias Solano and Andre,w Bulpitt and Venkataraman, Subramanian and Sharib, Ali},
+         title = {Multi-task learning with cross-task consistency for improved depth estimation in colonoscopy},
+         journal = {Medical Image Analysis},
+         pages = {},
+         year = {2024},
+         doi = {}
+         }
+
