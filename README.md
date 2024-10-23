@@ -13,8 +13,13 @@ Create a ./data folder and download the [C3VD](https://durrlab.github.io/C3VD/),
 Download our checkpoint and save it into the .logs/Col3D-MTL folder.
 
 `
-python eval.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpoint --data_path_eval ./data --gt_path_eval ./data 
+python eval.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpoint --data_path_eval ./data --gt_path_eval ./data \
          --filenames_file_eval ./data_splits/test.txt --multitask True --CL True
 `
 
+# Inference
 
+`
+python test.py --model_name Col3D-MTL --checkpoint_path ./logs/Col3D-MTL/checkpoint --data_path ./data/ \
+         --filenames_file ./data_splits/test.txt --multitask True --CL True
+`
