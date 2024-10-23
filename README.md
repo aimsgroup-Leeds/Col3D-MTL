@@ -1,1 +1,6 @@
 # Col3D-MTL
+
+Our proposed framework follows the encoder-decoder scheme, in which the encoder consists of a shared backbone, θ, followed by an atrous spatial pyramid (ASPP) module to extract contextual information at different dilation rates. The decoder stage comprises a primary depth estimator decoder (bottom) and an auxiliary surface normal decoder (top). Our unit normal computation block (UNC block) uses two feature channels (FC) to compute the elements of unit normal vectors (nx, ny, and nz). The local planar guided depth estimation block (LPG block) also uses a third FC to compute the perpendicular distance to the camera, which is incorporated together with the unit normals to provide local depth information ˜ck×k by the ray-plane intersection. CBAM modules (Att) are introduced at the skip connections and after the convolutional layers of the depth decoder to enhance global context awareness. The depth-to-surface normal (D2SN) module receives the predicted depth and outputs a warped surface normal map, which is compared against the surface normal prediction to enforce consistency among tasks. A2MIM is used to pre-train our encoder, θ, on phantom and patient colonoscopy data following a self-supervised learning approach based on masked image modelling.
+
+[MTL-XTC-v4.pdf](https://github.com/user-attachments/files/17489212/MTL-XTC-v4.pdf)
+
